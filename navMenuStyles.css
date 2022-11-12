@@ -1,0 +1,54 @@
+body {
+  background-color: #181719;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.btn-nav {
+  background-color: #181719;
+  color: #ffffff;
+  border: #181719;
+}
+
+.nav-menu-options {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-menu-options a {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
